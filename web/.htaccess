@@ -1,5 +1,6 @@
 AddDefaultCharset utf-8
 Options -Indexes
+DirectoryIndex index.htm index.html index.php front.php
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} -f [OR]
